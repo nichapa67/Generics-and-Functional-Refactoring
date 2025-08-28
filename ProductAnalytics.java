@@ -78,7 +78,7 @@ public class ProductAnalytics {
 
         return productCatalog.stream()
         .filter(p -> p.stock() == 0)
-        .count()>0; //นับที่ผ่านการกรองมาแล้วตรวจสอบว่าได้>0มั้ย
+        .count()>0; //นับที่ผ่านการกรองมาแล้วตรวจสอบว่าได้>0มั้ย true ถ้ามี falseไม่มี=0
         
     }
 }
